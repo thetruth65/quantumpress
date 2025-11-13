@@ -2,11 +2,11 @@
 
 import Header from './components/Header';
 import FileUploader from './components/FileUploader';
-import ActionPanel from './components/Actionpanel';
+import ActionPanel from './components/ActionPanel';
 import ResultsDisplay from './components/ResultsDisplay';
 import ProcessingModal from './components/ProcessingModal';
 import HuffmanTreeVisualizer from './components/HuffmanTreeVisualizer';
-import { useHuffman } from './hooks/usehuffman';
+import { useHuffman } from './hooks/useHuffman';
 import AlgorithmInfo from './components/AlgorithmInfo';
 import OutputFileInfo from './components/OutputFileInfo';
 import SerializationInfo from './components/SerializationInfo';
