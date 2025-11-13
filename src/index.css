@@ -1,0 +1,19 @@
+/* src/index.css -- UPDATED BASE STYLES */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Use the new dark blue background and off-white text color */
+  background-color: #0D1117; /* dark-bg */
+  color: #c9d1d9; /* light-text */
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.tree-link {
+  /* Use the new medium-text color for the tree links for theme consistency */
+  stroke: #8b949e;
+  stroke-width: 2px;
+  fill: none; /* Important for SVG paths */
+}
